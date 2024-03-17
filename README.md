@@ -11,7 +11,7 @@ seguridad, auditorías y desarrollo.
 ```bash
 cd /opt
 sudo rm -rf Directorio-mkt
-sudo git clone https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/Directorio-mkt
+sudo git clone https://github.com/JennValentine/Directorio-mkt
 sudo chmod +x Directorio-mkt/*
 cd Directorio-mkt
 ```
