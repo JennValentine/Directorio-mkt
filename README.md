@@ -18,13 +18,26 @@ cd Directorio-mkt
 
 ## :book: Acceso directo
 ```bash
+sudo cp mkt.sh pttl_$RANDOM.sh
+sudo cp mkt.sh mkt
+sudo rm -rf /usr/local/bin/mkt
+sudo mv mkt /usr/local/bin/
+cd
+```
+
+## :book: Acceso directo (En caso de error)
+```bash
 cd
 echo "cd /opt/mkt.sh && sudo ./mkt.sh" > mkt 
 sudo chmod +x mkt
-sudo rm -rf /usr/bin/mkt
-sudo mv mkt /usr/local/bin/mkt
+sudo rm -rf /usr/local/bin/mkt
+sudo mv mkt /usr/local/bin/
 cd
 ```
+
+
+
+
 
 ## Modo de Uso
 
