@@ -35,10 +35,6 @@ sudo mv mkt /usr/local/bin/
 cd
 ```
 
-
-
-
-
 ## Modo de Uso
 
 Ejecute el script simplemente escribiendo mkt en tu terminal y presionando Enter:
@@ -53,6 +49,5 @@ mkt
 * notes: Carpeta para almacenar notas o cualquier documentación adicional.
 * scripts: Carpeta para almacenar scripts personalizados.
 
-DATA: .
 ## :octocat: Créditos
 1. [Jenn Valentine](https://t.me/JennValentine) - Update Contributor
