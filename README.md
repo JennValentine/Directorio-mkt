@@ -28,16 +28,6 @@ sudo mv mkt /usr/local/bin/
 cd
 ```
 
-## :book: Acceso directo (En caso de error)
-```bash
-cd
-echo "cd /opt/Directorio-mkt && sudo ./mkt.sh" > mkt 
-sudo chmod +x mkt
-sudo rm -rf /usr/local/bin/mkt
-sudo mv mkt /usr/local/bin/
-cd
-```
-
 ## :hammer: Modo de Uso
 
 Ejecute el script simplemente escribiendo mkt en tu terminal y presionando Enter:
