@@ -19,6 +19,7 @@ function mkt ()
     echo -e "\t\033[1;32m>> Folders: \033[1;37mexploits"
     echo -e "\t\033[1;32m>> Folders: \033[1;37mnmap"
     echo -e "\t\033[1;32m>> Folders: \033[1;37mnotes"
+    echo -e "\t\033[1;32m>> Folders: \033[1;37mscreenshot"
     echo -e "\t\033[1;32m>> Folders: \033[1;37mscripts"
     
     # Muestra un mensaje de éxito
