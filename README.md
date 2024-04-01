@@ -41,6 +41,7 @@ mkt
 -  exploits: Carpeta para almacenar exploits utilizados o desarrollados.
 -  nmap: Carpeta para almacenar resultados y scripts relacionados con Nmap.
 -  notes: Carpeta para almacenar notas o cualquier documentación adicional.
+-  screenshot: Carpeta para almacenar capturas de pantalla.
 -  scripts: Carpeta para almacenar scripts personalizados.
 
 ## :octocat: Créditos
