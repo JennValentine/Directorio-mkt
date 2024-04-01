@@ -9,7 +9,7 @@
 function mkt ()
 {
     # Define las carpetas que deseas crear (nmap, content, exploits, scripts, notes)
-    mkdir -p {nmap,content,exploits,scripts,notes} 2>/dev/null
+    mkdir -p {content,exploits,nmap,notes,screenshot,scripts} 2>/dev/null
     
     # Muestra un mensaje indicando que se han creado las carpetas
     echo -e "\n\033[01;33m[**] Creating folders...\n"
