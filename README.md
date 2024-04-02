@@ -19,10 +19,9 @@ ls -lthas
 
 ## :book: Acceso directo
 ```bash
-cd
 cd /opt/Directorio-mkt
 sudo cp mkt.sh mkt_$RANDOM.sh
-sudo cp mkt.sh mkt
+sudo mv mkt.sh mkt
 sudo rm -rf /usr/local/bin/mkt
 sudo mv mkt /usr/local/bin/
 cd
