@@ -1,4 +1,4 @@
-﻿![logo](https://github.com/JennValentine/Directorio-mkt/blob/main/Imagenes/Directorio-mkt.jpg)
+﻿![logo](https://edteam-media.s3.amazonaws.com/blogs/big/2ab53939-9b50-47dd-b56e-38d4ba3cc0f0.png)
 
 # Directorio-mkt
 
@@ -34,6 +34,7 @@ Ejecute el script simplemente escribiendo mkt en tu terminal y presionando Enter
 ```bash
 mkt
 ```
+![logo](https://github.com/JennValentine/Directorio-mkt/blob/main/Imagenes/Directorio-mkt.jpg)
 :books: DATA: Esto creará varios directorios de trabajo.
 
 -  content: Carpeta para almacenar cualquier contenido relevante, como documentos, informes, etc.
