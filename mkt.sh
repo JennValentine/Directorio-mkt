@@ -24,6 +24,7 @@ checkmark="${green}[++]${reset}"
 error="${red}[--]${reset}"
 info="${yellow}[**]${reset}"
 process="${magenta}[>>]${reset}"
+indicator="${red}==>${reset}"
 
 barra="${blue}|--------------------------------------------|${reset}"
 
@@ -37,12 +38,12 @@ function mkt ()
     echo -e "\n${info} ${green}Creating folders...\n"
     
     # Imprime mensajes para cada carpeta creada
-    echo -e "\t${green}==> Folders: ${white}content"
-    echo -e "\t${green}==> Folders: ${white}exploits"
-    echo -e "\t${green}==> Folders: ${white}nmap"
-    echo -e "\t${green}==> Folders: ${white}notes"
-    echo -e "\t${green}==> Folders: ${white}screenshot"
-    echo -e "\t${green}==> Folders: ${white}scripts"
+    echo -e "\t${indicator} ${green}Folders: ${white}content"
+    echo -e "\t${indicator} ${green}Folders: ${white}exploits"
+    echo -e "\t${indicator} ${green}Folders: ${white}nmap"
+    echo -e "\t${indicator} ${green}Folders: ${white}notes"
+    echo -e "\t${indicator} ${green}Folders: ${white}screenshot"
+    echo -e "\t${indicator} ${green}Folders: ${white}scripts"
     
     # Muestra un mensaje de éxito
     echo -e "\n${checkmark} ${green}Folders Created Successfully"
