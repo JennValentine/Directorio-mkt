@@ -58,7 +58,7 @@ function mkt () {
     for folder in "${folders[@]}"; do
         mkdir -p "$folder" 2>/dev/null
         if [ -d "$folder" ]; then
-            echo -e "\t${indicator} ${green}Directorio creada: ${white}$folder"
+            echo -e "\t${indicator} ${green}Directorio creado: ${white}$folder"
         else
             echo -e "\t${indicator} ${red}Error al crear el directorio : ${white}$folder"
         fi
