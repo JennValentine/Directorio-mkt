@@ -7,7 +7,7 @@ es un script de Bash diseñado para simplificar la creación de
 directorios comúnmente utilizados en el contexto de pruebas de seguridad, 
 auditorías y desarrollo. Este script automatiza la configuración de un entorno de 
 trabajo estructurado, permitiendo a los profesionales y entusiastas de la seguridad 
-informática ahorrar tiempo y evitar errores manuales en la creación de carpetas 
+informática ahorrar tiempo y evitar errores manuales en la creación de directorios 
 necesarias para sus proyectos.
 
 ## :computer: Instalación
