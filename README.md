@@ -48,4 +48,4 @@ mkt
 -  scripts: Para scripts personalizados utilizados durante el proyecto.
 
 ## :email: Contacto
-* [Jenn Valentine](https://t.me/JennValentine) - :octocat: Update Contributor
+* :star2: [Jenn Valentine](https://t.me/JennValentine) - Update Contributor :octocat:
