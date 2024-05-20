@@ -3,9 +3,12 @@
 # Directorio-mkt
 
 ## :information_source: Descripción
-Este script de Bash tiene como objetivo simplificar la creación de 
-carpetas comúnmente utilizadas en el contexto de pruebas de 
-seguridad, auditorías y desarrollo.
+es un script de Bash diseñado para simplificar la creación de 
+directorios comúnmente utilizados en el contexto de pruebas de seguridad, 
+auditorías y desarrollo. Este script automatiza la configuración de un entorno de 
+trabajo estructurado, permitiendo a los profesionales y entusiastas de la seguridad 
+informática ahorrar tiempo y evitar errores manuales en la creación de carpetas 
+necesarias para sus proyectos.
 
 ## :arrow_down: Instalacion
 ```bash
@@ -35,14 +38,14 @@ Ejecute el script simplemente escribiendo mkt en tu terminal y presionando Enter
 mkt
 ```
 ![logo](https://github.com/JennValentine/Directorio-mkt/blob/main/Imagenes/Directorio-mkt.jpg)
-:books: DATA: Esto creará varios directorios de trabajo.
+:books: DATA: El script crea los siguientes directorios:
 
--  content: Carpeta para almacenar cualquier contenido relevante, como documentos, informes, etc.
--  exploits: Carpeta para almacenar exploits utilizados o desarrollados.
--  nmap: Carpeta para almacenar resultados y scripts relacionados con Nmap.
--  notes: Carpeta para almacenar notas o cualquier documentación adicional.
--  screenshot: Carpeta para almacenar capturas de pantalla.
--  scripts: Carpeta para almacenar scripts personalizados.
+-  content: Para almacenar contenido relevante del proyecto.
+-  exploits: Para guardar exploits y pruebas de concepto.
+-  nmap: Para almacenar resultados de escaneos Nmap.
+-  notes: Para mantener notas y documentación.
+-  screenshot: Para capturas de pantalla relevantes del proyecto.
+-  scripts: Para scripts personalizados utilizados durante el proyecto.
 
 ## :octocat: Créditos
 1. [Jenn Valentine](https://t.me/JennValentine) - Update Contributor
