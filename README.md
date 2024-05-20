@@ -20,7 +20,7 @@ cd Directorio-mkt
 ls -lthas
 ```
 
-## :book: Acceso directo
+## :key: Acceso Directo
 ```bash
 cd /opt/Directorio-mkt
 sudo cp mkt.sh mkt_$RANDOM.sh
@@ -30,7 +30,7 @@ sudo mv mkt /usr/local/bin/
 cd
 ```
 
-## :hammer: Modo de Uso
+## :rocket: Modo de Uso
 
 Ejecute el script simplemente escribiendo mkt en tu terminal y presionando Enter:
 
@@ -38,7 +38,7 @@ Ejecute el script simplemente escribiendo mkt en tu terminal y presionando Enter
 mkt
 ```
 ![logo](https://github.com/JennValentine/Directorio-mkt/blob/main/Imagenes/Directorio-mkt.jpg)
-:books: DATA: El script crea los siguientes directorios:
+:memo: Notas: El script crea los siguientes directorios:
 
 -  content: Para almacenar contenido relevante del proyecto.
 -  exploits: Para guardar exploits y pruebas de concepto.
@@ -47,5 +47,5 @@ mkt
 -  screenshot: Para capturas de pantalla relevantes del proyecto.
 -  scripts: Para scripts personalizados utilizados durante el proyecto.
 
-## :octocat: Créditos
-1. [Jenn Valentine](https://t.me/JennValentine) - Update Contributor
+## :email: Contacto
+1. [Jenn Valentine](https://t.me/JennValentine) - Update Contributor :octocat:
