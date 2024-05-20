@@ -49,23 +49,23 @@ bar="${yellow}--------------------------------------------${reset}"
 
 # Definición de la función "mkt"
 function mkt () {
-    # Define las carpetas que deseas crear
+    # Define los directorios que deseas crear
     local folders=("content" "exploits" "nmap" "notes" "screenshot" "scripts")
 
-    # Muestra un mensaje indicando que se están creando las carpetas
-    echo -e "\n${info} ${green}Creando carpetas...\n"
+    # Muestra un mensaje indicando que se están creando los directorios
+    echo -e "\n${info} ${green}Creando directorios...\n"
     
     for folder in "${folders[@]}"; do
         mkdir -p "$folder" 2>/dev/null
         if [ -d "$folder" ]; then
-            echo -e "\t${indicator} ${green}Carpeta creada: ${white}$folder"
+            echo -e "\t${indicator} ${green}Directorio creada: ${white}$folder"
         else
-            echo -e "\t${indicator} ${red}Error al crear la carpeta: ${white}$folder"
+            echo -e "\t${indicator} ${red}Error al crear el directorio : ${white}$folder"
         fi
     done
 
     # Muestra un mensaje de finalización
-    echo -e "\n${checkmark} ${green}Proceso de creación de carpetas completado"
+    echo -e "\n${checkmark} ${green}Proceso de creación de directorios completado"
 
     echo -e "\n${yellow}${info} ${white}GITHUB OFICIAL: ${green}https://github.com/JennValentine/Directorio-mkt\n"
     echo -e "$barra"
