@@ -10,7 +10,7 @@ trabajo estructurado, permitiendo a los profesionales y entusiastas de la seguri
 informática ahorrar tiempo y evitar errores manuales en la creación de carpetas 
 necesarias para sus proyectos.
 
-## :arrow_down: Instalacion
+:computer: Instalación
 ```bash
 cd /opt
 sudo rm -rf Directorio-mkt
