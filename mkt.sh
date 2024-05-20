@@ -2,7 +2,7 @@
 #====================================================
 #   SCRIPT:                   DIRECTORIO MKT
 #   DESARROLLADO POR:         JENN VALENTINE 
-#   FECHA DE ACTUALIZACI脙鈥淣:  01-04-2024 
+#   FECHA DE ACTUALIZACI覰:   01-04-2024 
 #   CONTACTO POR TELEGRAMA:   https://t.me/JennValentine
 #   GITHUB OFICIAL:           https://github.com/JennValentine/Directorio-mkt
 #====================================================
@@ -43,35 +43,35 @@ info="${yellow}[**]${reset}"
 process="${magenta}[>>]${reset}"
 indicator="${red}==>${reset}"
 
-# Barra de separaci贸n
+# Barra de separaci髇
 barra="${blue}|--------------------------------------------|${reset}"
 bar="${yellow}--------------------------------------------${reset}"
 
-# Definici贸n de la funci贸n "mkt"
-function mkt ()
-{
+# Definici髇 de la funci髇 "mkt"
+function mkt () {
     # Define las carpetas que deseas crear
-    mkdir -p {content,exploits,nmap,notes,screenshot,scripts} 2>/dev/null
+    local folders=("content" "exploits" "nmap" "notes" "screenshot" "scripts")
+
+    # Muestra un mensaje indicando que se est醤 creando las carpetas
+    echo -e "\n${info} ${green}Creando carpetas...\n"
     
-    # Muestra un mensaje indicando que se han creado las carpetas
-    echo -e "\n${info} ${green}Creating folders...\n"
-    
-    # Imprime mensajes para cada carpeta creada
-    echo -e "\t${indicator} ${green}Folders: ${white}content"
-    echo -e "\t${indicator} ${green}Folders: ${white}exploits"
-    echo -e "\t${indicator} ${green}Folders: ${white}nmap"
-    echo -e "\t${indicator} ${green}Folders: ${white}notes"
-    echo -e "\t${indicator} ${green}Folders: ${white}screenshot"
-    echo -e "\t${indicator} ${green}Folders: ${white}scripts"
-    
-    # Muestra un mensaje de 茅xito
-    echo -e "\n${checkmark} ${green}Folders Created Successfully"
+    for folder in "${folders[@]}"; do
+        mkdir -p "$folder" 2>/dev/null
+        if [ -d "$folder" ]; then
+            echo -e "\t${indicator} ${green}Carpeta creada: ${white}$folder"
+        else
+            echo -e "\t${indicator} ${red}Error al crear la carpeta: ${white}$folder"
+        fi
+    done
+
+    # Muestra un mensaje de finalizaci髇
+    echo -e "\n${checkmark} ${green}Proceso de creaci髇 de carpetas completado"
 
     echo -e "\n${yellow}${info} ${white}GITHUB OFICIAL: ${green}https://github.com/JennValentine/Directorio-mkt\n"
     echo -e "$barra"
 }
 
-# Llamada a la funci贸n "mkt"
+# Llamada a la funci髇 "mkt"
 mkt
 
 # Fin del script
