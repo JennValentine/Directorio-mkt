@@ -54,7 +54,7 @@ mkt
 -  Eficiencia: Ahorra tiempo al evitar la creación manual de carpetas.
 -  Organización: Facilita la estructuración y organización del contenido del proyecto.
 
-## :hammer: Requisitos 
+## :gear: :hammer_and_wrench: :hammer_and_pick: Configuración Requisitos 
 -  Sistema Operativo: Linux/Unix
 -  Dependencias: Bash
 
