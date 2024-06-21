@@ -47,5 +47,21 @@ mkt
 -  screenshot: Para capturas de pantalla relevantes del proyecto.
 -  scripts: Para scripts personalizados utilizados durante el proyecto.
 
+El script creará automáticamente los directorios mencionados en la ubicación actual.
+
+## :star2: Características 
+
+-  Automatización: Simplifica la creación de múltiples directorios con un solo comando.
+-  Eficiencia: Ahorra tiempo al evitar la creación manual de carpetas.
+-  Organización: Facilita la estructuración y organización del contenido del proyecto.
+
+## :hammer: Requisitos 
+-  Sistema Operativo: Linux/Unix
+-  Dependencias: Bash
+
+## :pencil: Notas 
+Asegúrate de tener permisos de ejecución para el script.
+Puedes personalizar los nombres de las carpetas modificando el script según tus necesidades.
+
 ## :email: Contacto
 * :busts_in_silhouette: [Jenn Valentine](https://t.me/JennValentine) - Update Contributor :octocat:
