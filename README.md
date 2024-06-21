@@ -59,7 +59,7 @@ El script creará automáticamente los directorios mencionados en la ubicación 
 -  Sistema Operativo: Linux/Unix
 -  Dependencias: Bash
 
-## :pencil: Notas 
+## :pencil: :memo: Notas 
 Asegúrate de tener permisos de ejecución para el script.
 Puedes personalizar los nombres de las carpetas modificando el script según tus necesidades.
 
