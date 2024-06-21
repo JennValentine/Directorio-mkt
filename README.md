@@ -27,6 +27,7 @@ sudo cp mkt.sh mkt_$RANDOM.sh
 sudo mv mkt.sh mkt
 sudo rm -rf /usr/local/bin/mkt
 sudo mv mkt /usr/local/bin/
+ls -lthas
 cd
 ```
 
@@ -57,7 +58,7 @@ mkt
 -  Sistema Operativo: Linux/Unix
 -  Dependencias: Bash
 
-:memo: Notas: Puedes personalizar los nombres de las carpetas modificando el script según tus necesidades.
+:bookmark_tabs: Puedes personalizar los nombres de las carpetas modificando el script según tus necesidades.
 
 ## :email: Contacto
 * :busts_in_silhouette: [Jenn Valentine](https://t.me/JennValentine) - Contribución :octocat:
