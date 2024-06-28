@@ -2,7 +2,7 @@
 #====================================================
 #   SCRIPT:                   DIRECTORIO MKT
 #   DESARROLLADO POR:         JENN VALENTINE 
-#   FECHA DE ACTUALIZACI覰:   01-04-2024 
+#   FECHA DE ACTUALIZACI脫N:   01-04-2024 
 #   CONTACTO POR TELEGRAMA:   https://t.me/JennValentine
 #   GITHUB OFICIAL:           https://github.com/JennValentine/Directorio-mkt
 #====================================================
@@ -43,16 +43,16 @@ info="${yellow}[**]${reset}"
 process="${magenta}[>>]${reset}"
 indicator="${red}==>${reset}"
 
-# Barra de separaci髇
+# Barra de separaci贸n
 barra="${blue}|--------------------------------------------|${reset}"
 bar="${yellow}--------------------------------------------${reset}"
 
-# Definici髇 de la funci髇 "mkt"
+# Definici贸n de la funci贸n "mkt"
 function mkt () {
     # Define los directorios que deseas crear
     local folders=("content" "exploits" "nmap" "notes" "screenshot" "scripts")
 
-    # Muestra un mensaje indicando que se est醤 creando los directorios
+    # Muestra un mensaje indicando que se est谩n creando los directorios
     echo -e "\n${info} ${green}Creando directorios...\n"
     
     for folder in "${folders[@]}"; do
@@ -64,14 +64,14 @@ function mkt () {
         fi
     done
 
-    # Muestra un mensaje de finalizaci髇
-    echo -e "\n${checkmark} ${green}Proceso de creaci髇 de directorios completado"
+    # Muestra un mensaje de finalizaci贸n
+    echo -e "\n${checkmark} ${green}Proceso de creaci贸n de directorios completado"
 
     echo -e "\n${yellow}${info} ${white}GITHUB OFICIAL: ${green}https://github.com/JennValentine/Directorio-mkt\n"
     echo -e "$barra"
 }
 
-# Llamada a la funci髇 "mkt"
+# Llamada a la funci贸n "mkt"
 mkt
 
 # Fin del script
