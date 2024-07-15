@@ -31,6 +31,11 @@ ls -lthas
 cd
 ```
 
+## :computer: Instalación en una Línea
+```bash
+wget https://raw.githubusercontent.com/JennValentine/Directorio-mkt/main/install.sh; sudo chmod +x install.sh; sudo ./install.sh
+```
+
 ## :rocket: Modo de Uso
 
 Ejecute el script simplemente escribiendo mkt en tu terminal y presionando Enter:
