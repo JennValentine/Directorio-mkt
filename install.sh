@@ -1,15 +1,14 @@
 #!/bin/bash
 
 cd /opt
-sudo rm -rf Directorio-mkt
-sudo git clone https://github.com/JennValentine/Directorio-mkt
-sudo chmod +x Directorio-mkt/*
-cd Directorio-mkt
+sudo rm -rf Kali-linux_drivers_and_tools_checker
+sudo git clone https://github.com/JennValentine/Kali-linux_drivers_and_tools_checker.git
+sudo chmod +x Kali-linux_drivers_and_tools_checker/*
+cd Kali-linux_drivers_and_tools_checker
 ls -lthas
-cd /opt/Directorio-mkt
-sudo cp mkt.sh mkt_$RANDOM.sh
-sudo mv mkt.sh mkt
-sudo rm -rf /usr/local/bin/mkt
-sudo mv mkt /usr/local/bin/
-ls -lthas
+cd 
+sudo echo "cd /opt/Kali-linux_drivers_and_tools_checker && sudo ./kalilinuxdrivertools.sh" > kalilinuxdrivertools
+sudo chmod +x kalilinuxdrivertools
+sudo rm -rf /usr/local/bin/kalilinuxdrivertools
+sudo mv kalilinuxdrivertools /usr/local/bin/
 cd
