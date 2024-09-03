@@ -44,7 +44,7 @@ Ejecute el script simplemente escribiendo mkt en tu terminal y presionando Enter
 mkt
 ```
 ![logo](https://github.com/JennValentine/Directorio-mkt/blob/main/Imagenes/Directorio-mkt.jpg)
-:memo: Notas: El script crea los siguientes directorios en la ubicación actual:
+:memo: El script crea los siguientes directorios en la ubicación actual:
 
 -  content: Para almacenar contenido relevante del proyecto.
 -  exploits: Para guardar exploits y pruebas de concepto.
