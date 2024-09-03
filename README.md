@@ -69,7 +69,7 @@ El script crea los siguientes directorios en la ubicación actual:
 ## :open_file_folder: Estructura del Repositorio
 
 ```plaintext
-Ping-TTL/
+Directorio-mkt/
 │
 ├── Imagenes/            # Carpeta que contiene imágenes de ejemplos y del script en ejecución.
 │   └── Directorio-mkt.jpg
