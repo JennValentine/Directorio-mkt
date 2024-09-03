@@ -1,6 +1,6 @@
-﻿![logo](https://edteam-media.s3.amazonaws.com/blogs/big/2ab53939-9b50-47dd-b56e-38d4ba3cc0f0.png)
+﻿![logo](https://img.freepik.com/vector-premium/pelirroja-anime-error-404-pagina-no-encontrada_150972-657.jpg?w=826)
 
-# Directorio-mkt
+# Directorio-mkt :octocat: 
 
 ## :information_source: Descripción
 es un script de Bash diseñado para simplificar la creación de 
@@ -58,12 +58,28 @@ mkt
 -  Automatización: Simplifica la creación de múltiples directorios con un solo comando.
 -  Eficiencia: Ahorra tiempo al evitar la creación manual de carpetas.
 -  Organización: Facilita la estructuración y organización del contenido del proyecto.
+-  Personalización: Puedes personalizar los nombres de las carpetas modificando el script según tus necesidades.
 
 ## :hammer_and_wrench: Requisitos 
 -  Sistema Operativo: Linux/Unix
 -  Dependencias: Bash
 
-:bookmark_tabs: Puedes personalizar los nombres de las carpetas modificando el script según tus necesidades.
+## :open_file_folder: Estructura del Repositorio
+
+```plaintext
+Ping-TTL/
+│
+├── Imagenes/            # Carpeta que contiene imágenes de ejemplos y del script en ejecución.
+│   └── Directorio-mkt.jpg
+│
+├── LICENSE              # Licencia MIT para el proyecto.
+│
+├── README.md            # Archivo README con la documentación del proyecto.
+│
+├── install.sh           # Script de instalación automática.
+│
+└── mkt.sh               # Script principal que realiza la creacion de directorios.
+```
 
 ## :email: Contacto
-* :busts_in_silhouette: [Jenn Valentine](https://t.me/JennValentine) - Contribución :octocat:
+* :busts_in_silhouette: [Jenn Valentine](https://t.me/JennValentine) - Contribución
